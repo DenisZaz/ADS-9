@@ -20,7 +20,8 @@ BST<std::string> makeTree(const char* filename) {
         while (true) {
             char tmp = fin.get();
             if ((tmp >= 65 && tmp <= 90) || (tmp >= 97 && tmp <= 122)) value += tolower(tmp);
-            else break;
+            else
+                break;
         }
         BSTree.addNode_(value);
         value = "";
