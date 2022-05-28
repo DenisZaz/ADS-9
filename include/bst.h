@@ -53,7 +53,7 @@ class BST {
         }
     }
 
-public:
+ public:
     BST() {
         root = nullptr;
     }
@@ -66,6 +66,5 @@ public:
     int search(T val) {
         return searchNode(root, val);
     }
-
 };
 #endif  // INCLUDE_BST_H_
